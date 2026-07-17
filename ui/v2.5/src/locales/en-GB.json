@@ -7,13 +7,13 @@
     "add_sub_groups": "Add Sub-Groups",
     "add_o": "Add O",
     "add_play": "Add play",
-    "add_stash_id": "Add Stash ID",
+    "add_stash_id": "Add SBID",
     "add_to_entity": "Add to {entityType}",
     "allow": "Allow",
     "allow_temporarily": "Allow temporarily",
     "anonymise": "Anonymise",
     "apply": "Apply",
-    "assign_stashid_to_parent_studio": "Assign Stash ID to existing parent studio and update metadata",
+    "assign_stashid_to_parent_studio": "Assign SBID to existing parent studio and update metadata",
     "auto_tag": "Auto tag",
     "backup": "Backup",
     "browse_for_image": "Browse for image…",
@@ -1060,7 +1060,7 @@
     "overwrite_filter_warning": "Saved filter \"{entityName}\" will be overwritten.",
     "performers_found": "{count} performers found",
     "reassign_entity_title": "{count, plural, one {Reassign {singularEntity}} other {Reassign {pluralEntity}}}",
-    "stashid_exists_warning": "The existing stash id for this stash-box will be replaced.",
+    "stashid_exists_warning": "The existing SBID for this stash-box will be replaced.",
     "reassign_files": {
       "destination": "Reassign to"
     },
@@ -1156,7 +1156,7 @@
   },
   "duplicated": "Duplicated",
   "duplicated_phash": "Duplicated (pHash)",
-  "duplicated_stash_id": "Duplicated (Stash ID)",
+  "duplicated_stash_id": "Duplicated (SBID)",
   "duplicated_title": "Duplicated (Title)",
   "duration": "Duration",
   "effect_filters": {
@@ -1398,7 +1398,7 @@
     "no_results_found": "No results found.",
     "number_of_performers_will_be_processed": "{performer_count} performers will be processed",
     "performer_already_tagged": "Performer already tagged",
-    "performer_names_or_stashids_separated_by_comma": "Performer names or StashIDs separated by comma",
+    "performer_names_or_stashids_separated_by_comma": "Performer names or SBIDs separated by comma",
     "performer_selection": "Performer selection",
     "performer_successfully_tagged": "Performer successfully tagged:",
     "query_all_performers_in_the_database": "All performers in the database",
@@ -1411,7 +1411,7 @@
     "untagged_performers": "Untagged performers",
     "update_performer": "Update Performer",
     "update_performers": "Update Performers",
-    "updating_untagged_performers_description": "Updating untagged performers will try to match any performers that lack a stashid and update the metadata."
+    "updating_untagged_performers_description": "Updating untagged performers will try to match any performers that lack a SBID and update the metadata."
   },
   "performer_tags": "Performer Tags",
   "performers": "Performers",
@@ -1564,14 +1564,14 @@
     },
     "welcome_to_stash": "Welcome to Stash"
   },
-  "stash_id": "Stash ID",
-  "stash_id_count": "Stash ID Count",
-  "stash_id_endpoint": "Stash ID Endpoint URL",
-  "stash_ids": "Stash IDs",
+  "stash_id": "SBID",
+  "stash_id_count": "SBID Count",
+  "stash_id_endpoint": "SBID Endpoint URL",
+  "stash_ids": "SBIDs",
   "stashbox_search": {
     "header": "Search {entityType} from StashBox",
     "no_results": "No results found.",
-    "placeholder_name_or_id": "{entityType} name or StashID...",
+    "placeholder_name_or_id": "{entityType} name or SBID...",
     "select_stashbox": "Select StashBox..."
   },
   "stashbox": {
@@ -1620,7 +1620,7 @@
     "status_tagging_job_queued": "Status: Tagging job queued",
     "status_tagging_studios": "Status: Tagging studios",
     "studio_already_tagged": "Studio already tagged",
-    "studio_names_or_stashids_separated_by_comma": "Studio names or StashIDs separated by comma",
+    "studio_names_or_stashids_separated_by_comma": "Studio names or SBIDs separated by comma",
     "studio_selection": "Studio selection",
     "studio_successfully_tagged": "Studio successfully tagged",
     "tag_status": "Tag Status",
@@ -1628,7 +1628,7 @@
     "untagged_studios": "Untagged studios",
     "update_studio": "Update Studio",
     "update_studios": "Update Studios",
-    "updating_untagged_studios_description": "Updating untagged studios will try to match any studios that lack a stashid and update the metadata."
+    "updating_untagged_studios_description": "Updating untagged studios will try to match any studios that lack a SBID and update the metadata."
   },
   "studio_tags": "Studio Tags",
   "studios": "Studios",
@@ -1673,14 +1673,14 @@
     "status_tagging_job_queued": "Status: Tagging job queued",
     "status_tagging_tags": "Status: Tagging tags",
     "tag_already_tagged": "Tag already tagged",
-    "tag_names_or_stashids_separated_by_comma": "Tag names or StashIDs separated by comma",
+    "tag_names_or_stashids_separated_by_comma": "Tag names or SBIDs separated by comma",
     "tag_selection": "Tag selection",
     "tag_successfully_tagged": "Tag successfully tagged",
     "tag_status": "Tag Status",
     "to_use_the_tag_tagger": "To use the tag tagger a stash-box instance needs to be configured.",
     "untagged_tags": "Untagged tags",
     "update_tags": "Update Tags",
-    "updating_untagged_tags_description": "Updating untagged tags will try to match any tags that lack a stashid and update the metadata."
+    "updating_untagged_tags_description": "Updating untagged tags will try to match any tags that lack a SBID and update the metadata."
   },
   "tagger": {
     "config": {
